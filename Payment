@@ -25,3 +25,61 @@
 <script src="app.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>បង់ប្រាក់</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>បង់ថវិកា</header>
+
+<div class="card">
+<p>ចំនួនប្រាក់៖ <b>20,000 រៀល</b></p>
+
+<button onclick="pay()">បង់ថវិកា</button>
+
+<hr>
+<p>បន្ទាប់ពីបង់ សូម Upload វិក្កយបត្រ</p>
+<input type="file">
+<button onclick="alert('Upload រួចរាល់!')">បញ្ជូន</button>
+
+<br><br>
+<button onclick="location.href='receipt.html'">មើលបង្កាន់ដៃ</button>
+</div>
+
+<script>
+function pay(){
+ alert("កំពុងបញ្ជូនប្រាក់ទៅធនាគារ (Demo)");
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>បង្កាន់ដៃ</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>បង្កាន់ដៃ</header>
+
+<div class="card">
+<p>ឈ្មោះ៖ សុខុន</p>
+<p>ជំនាញ៖ BSN</p>
+<p>ប្រភេទ៖ ប្រឡងលើកទី២</p>
+<p>ប្រាក់៖ 20,000 រៀល</p>
+<p>លេខប្រតិបត្តិការ៖ TXN12345</p>
+
+<button onclick="alert('PDF Download (Demo)')">ទាញយក PDF</button>
+</div>
+
+</body>
+</html>
