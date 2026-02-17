@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ប្រព័ន្ធបង់ថ្លៃសិក្សា</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>ប្រព័ន្ធបង់ថ្លៃសិក្សា</header>
+
+<div class="card">
+  <h3>សិស្ស៖ សុខុន</h3>
+  <p>ជំនាញ៖ BSN</p>
+  <p>ឆ្នាំ៖ ឆ្នាំទី២ | ឆមាសទី៣</p>
+  <p>ថ្លៃត្រូវបង់៖ <b>20,000 រៀល</b></p>
+
+  <button onclick="location.href='pages/payment.html'">បង់ថវិកា</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
